@@ -62,7 +62,7 @@ const Agence = () => {
   return (
     <div>
       <div className='section1 relative py-1'>
-        <div ref={imageDivRef} className=' absolute overflow-hidden lg:h-[20vw] h-[30vw] w-[15vw]  rounded-4xl  lg:top-50  left-95'>
+        <div ref={imageDivRef} className=' absolute overflow-hidden lg:h-[20vw] h-[60vw] lg:w-[15vw] w-[45vw]  rounded-4xl  top-24 lg:top-50 lg:left-95 left-1/2 -translate-x-1/2 lg:translate-x-0'>
           <img ref={imageRef} className='h-full object-cover w-full transition-all' src="https://k72.ca/images/teamMembers/Carl_480x640.jpg?w=480&h=640&fit=crop&s=f0a84706bc91a6f505e8ad35f520f0b7" alt="" />
         </div>
         <div className=' relative font-[f2] text-black'>
@@ -70,8 +70,8 @@ const Agence = () => {
             <h1 className='text-[17vw] text-center uppercase leading-[16vw]'>Soixan7e<br />
               Douze</h1>
           </div>
-          <div className='pl-[40%] mt-20'>
-            <p className='text-4xl'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Notre curiosité nourrit notre créativité. On reste humbles et on dit non aux gros egos, même le vôtre. Une marque est vivante. Elle a des valeurs, une personnalité, une histoire. Si on oublie ça, on peut faire de bons chiffres à court terme, mais on la tue à long terme. C’est pour ça qu’on s’engage à donner de la perspective, pour bâtir des marques influentes.</p>
+          <div className='lg:pl-[40%] pl-6 pr-6 mt-10 lg:mt-20'>
+            <p className='lg:text-4xl text-lg sm:text-xl'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Notre curiosité nourrit notre créativité. On reste humbles et on dit non aux gros egos, même le vôtre. Une marque est vivante. Elle a des valeurs, une personnalité, une histoire. Si on oublie ça, on peut faire de bons chiffres à court terme, mais on la tue à long terme. C’est pour ça qu’on s’engage à donner de la perspective, pour bâtir des marques influentes.</p>
           </div>
         </div>
       </div>

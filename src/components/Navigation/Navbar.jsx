@@ -24,10 +24,10 @@ const [navOpen, setnavOpen]  =  useContext(NavBarContext)
     onMouseLeave={()=>{
       navGRef.current.style.height = '0%'
     }}
-     className='lg:h-10  h-5 bg-black  lg:w-60 w-30 relative'>
+     className='lg:h-10  h-8 bg-black  lg:w-60 w-24 relative'>
         <div ref={navGRef} className= 'bg-[#D3FD50] transition-all absolute top-0 h-0 w-full'></div>
-        <div className= ' relative h-full lg:px-10 px-5 flex flex-col lg:gap-1 gap-0.5 justify-center items-end'>
-          <div className='lg:w-18 w-12 h-0.5 bg-white'></div>
+        <div className= ' relative h-full lg:px-10 px-4 flex flex-col lg:gap-1 gap-1 justify-center items-end'>
+          <div className='lg:w-18 w-10 h-0.5 bg-white'></div>
            <div className='lg:w-10 w-6 h-0.5 bg-white'></div>
         </div>
     </div>
